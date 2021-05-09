@@ -1,0 +1,91 @@
+html {
+  background: url(https://linkrr.in/uploads/backgrounds/c13281a9780789bfa70dfe6cf48ad867.png) center center no-repeat;
+  background-size:cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  width: 125px;
+  height: 125px;
+}
+
+.div1{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding: 0%;
+  /* margin: 0; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+  cursor: pointer;
+  border-width: 0px;
+  padding: 1.1rem 4.5rem;
+  margin-top: 1.1rem;
+  width: 45%;
+  display: block;
+  white-space: normal;
+  font-size: 1.1rem;
+  position: relative;
+  word-wrap: break-word;
+  box-shadow: 0 0 20px #00000010;
+  transition: opacity 0.3s, background 0.3s;
+}
+
+.btn2{
+  background-color: #f31212;
+}
+
+.btn3{
+  background-color: #0D0D0D;
+}
+
+.btn4{
+  background-color: #31A3DF;
+}
+
+.btn5{
+  background-color: #003638;
+}
+
+.btn6{
+  background-color: #D9FF38;
+}
+
+.btn7{
+  background-color: #00FF00;
+}
+
+.btn8{
+  background-color: #00C343;;
+}
+
+.logos{
+  width: 2.25em;
+  padding: 1em;
+}
+
+.name{
+  font-size: 56px;
+}
+
+@media only screen and (max-width: 768px) {
+  .name{
+    font-size: 32px;
+  }
+  .btn{
+    margin-top: 1rem;
+    padding: 1rem 2.5rem;
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  .logos{
+    width: 1.5em;
+  }
+}
